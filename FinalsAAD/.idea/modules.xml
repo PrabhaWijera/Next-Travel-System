@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FinalsAAD.iml" filepath="$PROJECT_DIR$/.idea/FinalsAAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Package_server/Package_server.iml" filepath="$PROJECT_DIR$/Package_server/Package_server.iml" />
+    </modules>
+  </component>
+</project>

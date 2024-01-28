@@ -1,0 +1,19 @@
+// Style for the unordered list containing icons
+.@{fa-css-prefix}-ul {
+  list-style-type: none; // Remove default list-style
+  margin-left: var(--@{fa-css-prefix}-li-margin, var(--fa-li-margin)); // Define margin-left, with fallback
+  padding-left: 0; // Remove default padding
+
+  > li {
+    position: relative; // Make list items relatively positioned
+  }
+}
+
+// Style for the list items (icons)
+.@{fa-css-prefix}-li {
+  left: calc(var(--@{fa-css-prefix}-li-width, var(--fa-li-width)) * -1); // Position the list items to the left
+  position: absolute; // Position the list items absolutely
+  text-align: center; // Center-align the content within the list item
+  width: var(--@{fa-css-prefix}-li-width, var(--fa-li-width)); // Define the width of the list item
+  line-height: inherit; // Inherit the line height
+}

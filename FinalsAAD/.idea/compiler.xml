@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Service_Registry" />
+        <module name="Package-Details-Server" />
+        <module name="API-gateway" />
+        <module name="Vehicel-Server" />
+        <module name="Hotel-Server" />
+        <module name="EmailService" />
+        <module name="user_server" />
+        <module name="Payment-Server" />
+        <module name="UploadServer" />
+        <module name="Package_server" />
+        <module name="Guide-Server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Driver_server" target="17" />
+      <module name="package-server" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-gateway" options="-parameters" />
+      <module name="Driver_server" options="-parameters" />
+      <module name="EmailService" options="-parameters" />
+      <module name="Guide-Server" options="-parameters" />
+      <module name="Hotel-Server" options="-parameters" />
+      <module name="Package-Details-Server" options="-parameters" />
+      <module name="Package_server" options="-parameters" />
+      <module name="Payment-Server" options="-parameters" />
+      <module name="Service_Registry" options="-parameters" />
+      <module name="UploadServer" options="-parameters" />
+      <module name="Vehicel-Server" options="-parameters" />
+      <module name="package-server" options="-parameters" />
+      <module name="user_server" options="-parameters" />
+    </option>
+  </component>
+</project>

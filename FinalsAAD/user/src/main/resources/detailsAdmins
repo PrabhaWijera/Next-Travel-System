@@ -1,0 +1,194 @@
+GUIDE
+{
+    "userRole": "A_GUIDE",
+    "userId": "guide1",
+    "name": "John Doe",
+    "userName": "adminguide2001",
+    "userPassword": "2001",
+    "userNIC": "123456789",
+    "userNICImageLocation": "/path/to/nic-image.jpg",
+    "userAge": 35,
+    "gender": "MALE",
+    "userEmail": "johndoe@example.com",
+    "userPhone": "1234567890",
+    "userAddress": "123 Main Street, Colombo, Sri Lanka",
+    "remarks": "This is the admin user account.",
+    "userImageLocation": "/path/to/user-image.jpg",
+    "isAuthenticated": false
+}
+Token->
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFfR1VJREUiLCJzdWIiOiJhZG1pbmd1aWRlMjAwMSIsImlhdCI6MTY5ODIxNjUwOCwiZXhwIjo0ODUxODE2NTA4fQ.hQqMDON3iG7ANAOS45k064KfmpdgqOXpZ2T7bgIBFJ4
+
+
+PAYMENT
+{
+    "userRole": "A_PAYMENT",
+    "userId": "pay1",
+    "name": "Alice Smith",
+    "userName": "pay2001",
+    "userPassword": "2001",
+    "userNIC": "987654321",
+    "userNICImageLocation": "/new-path/to/nic-image.jpg",
+    "userAge": 28,
+    "gender": "FEMALE",
+    "userEmail": "alicesmith@example.com",
+    "userPhone": "9876543210",
+    "userAddress": "456 Oak Street, Colombo, Sri Lanka",
+    "remarks": "This is the updated tour guide account.",
+    "userImageLocation": "/new-path/to/user-image.jpg",
+    "isAuthenticated": false
+}
+Token->
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFfUEFZTUVOVCIsInN1YiI6InBheTIwMDEiLCJpYXQiOjE2OTgyMTc0NjcsImV4cCI6NDg1MTgxNzQ2N30.d91AdCqnITrzGbsMPvQNr0vYLDtmBocuvcBnep9hC-A
+
+
+Hotel
+{
+    "userRole": "A_HOTEL",
+    "userId": "hoteladmin1",
+    "name": "Sarah Johnson",
+    "userName": "hotel2001",
+    "userPassword": "2001",
+    "userNIC": "765432109",
+    "userNICImageLocation": "/new-path/to/nic-image2.jpg",
+    "userAge": 30,
+    "gender": "FEMALE",
+    "userEmail": "sarah.johnson@example.com",
+    "userPhone": "9876543210",
+    "userAddress": "789 Maple Lane, Colombo, Sri Lanka",
+    "remarks": "This is the updated customer account.",
+    "userImageLocation": "/new-path/to/user-image2.jpg",
+    "isAuthenticated": false
+}
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFfSE9URUwiLCJzdWIiOiJob3RlbDIwMDEiLCJpYXQiOjE2OTgyMTczMjMsImV4cCI6NDg1MTgxNzMyM30.wHic2oKFfSTxMqLKMbV96Z9bnYgdyE_EaacnOGG2Lz8
+
+
+Vehicle
+
+
+{
+    "userRole": "A_VEHICLE",
+    "userId": "vehi1",
+    "name": "Jhon Smith",
+    "userName": "vehi2001",
+    "userPassword": "2001",
+    "userNIC": "987654321",
+    "userNICImageLocation": "/new-path/to/nic-image.jpg",
+    "userAge": 28,
+    "gender": "FEMALE",
+    "userEmail": "Jhonsmith@example.com",
+    "userPhone": "9876543210",
+    "userAddress": "456 Oak Street, Colombo, Sri Lanka",
+    "remarks": "This is the updated tour guide account.",
+    "userImageLocation": "/new-path/to/user-image.jpg",
+    "isAuthenticated": false
+}
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFfVkVISUNMRSIsInN1YiI6InZlaGkyMDAxIiwiaWF0IjoxNjk4MjE3ODY0LCJleHAiOjQ4NTE4MTc4NjR9.XdlpJELspG2kIHotbtx9WTmywt03QSV1qwoLigO6kKE
+
+
+PACKAGE
+
+{
+    "userRole": "A_PACKAGE",
+    "userId": "package1",
+    "name": "Sam Ghost",
+    "userName": "package2001",
+    "userPassword": "2001",
+    "userNIC": "987654321",
+    "userNICImageLocation": "/new-path/to/nic-image.jpg",
+    "userAge": 28,
+    "gender": "FEMALE",
+    "userEmail": "Jhonsmith@example.com",
+    "userPhone": "9876543210",
+    "userAddress": "456 Oak Street, Colombo, Sri Lanka",
+    "remarks": "This is the updated tour guide account.",
+    "userImageLocation": "/new-path/to/user-image.jpg",
+    "isAuthenticated": false
+}
+
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFfUEFDS0FHRSIsInN1YiI6InBhY2thZ2UyMDAxIiwiaWF0IjoxNjk4MjE4MTgzLCJleHAiOjQ4NTE4MTgxODN9.M4bzixa7mGlo-mmyhasByViBgMooTU_t5T4YvAyzmh0
+
+
+
+PackageDetails
+
+{
+    "userRole": "PACKAGE_DETAILS",
+    "userId": "pckge001",
+    "name": "packageDetailsadmin",
+    "userName": "packageDetailsadmin2001",
+    "userPassword": "2001",
+    "userNIC": "987654321",
+    "userNICImageLocation": "https://example.com/payment-nic-image.jpg",
+    "userAge": 35,
+    "gender":"MALE",
+    "userEmail": "soap@example.com",
+    "userPhone": "555-123-4567",
+    "userAddress": "456 Maple Street, Payment City, Payment Country",
+    "remarks": "Experienced payment administrator with a strong financial background.",
+    "userImageLocation": "https://example.com/sarah-image.jpg",
+    "isAuthenticated": false
+}
+
+
+
+
+
+
+
+
+
+
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IlBBQ0tBR0VfREVUQUlMUyIsInN1YiI6InBhY2thZ2VEZXRhaWxzYWRtaW4yMDAxIiwiaWF0IjoxNjk4NDY3MjQyLCJleHAiOjQ4NTIwNjcyNDJ9.iJmDyxXpcXihXCGqjv0S13WaFEku7zE_XQBr6LMKXXU
+
+
+
+
+
+
+
+
+
+ADMin USER
+
+{
+    "userRole": "AD_USER",
+    "userId": "userAdmin1",
+    "name": "Sheperd coprail",
+    "userName": "useradmin2001",
+    "userPassword": "2001",
+    "userNIC": "987654321",
+    "userNICImageLocation": "/new-path/to/nic-image.jpg",
+    "userAge": 28,
+    "gender": "FEMALE",
+    "userEmail": "Sheperd@example.com",
+    "userPhone": "9876543210",
+    "userAddress": "456 Oak Street, Colombo, Sri Lanka",
+    "remarks": "This is the updated tour guide account.",
+    "userImageLocation": "/new-path/to/user-image.jpg",
+    "isAuthenticated": false
+}
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6IkFEX1VTRVIiLCJzdWIiOiJ1c2VyYWRtaW4yMDAxIiwiaWF0IjoxNjk4MjE4NDMyLCJleHAiOjQ4NTE4MTg0MzJ9.ojHdxgx9k3lJMdNwjYei4eNE2DPM7EWO9Ttjx2eJCog
+
+
+
+//normal users
+
+{
+    "userRole": "NORMAL_CUSTOMER",
+    "userId": "customer123",
+    "name": "Emily Johnson",
+    "userName": "emilyj",
+    "userPassword": "strongPassword456",
+    "userNIC": "987654321",
+    "userNICImageLocation": "/path/to/nic-image.jpg",
+    "userAge": 30,
+    "gender": "FEMALE",
+    "userEmail": "emily.j@example.com",
+    "userPhone": "555-123-4567",
+    "userAddress": "789 Maple Avenue, Anytown, USA",
+    "remarks": "This is a regular customer account for Emily.",
+    "userImageLocation": "/path/to/user-image.jpg",
+    "isAuthenticated": true
+}
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyUm9sZSI6Ik5PUk1BTF9DVVNUT01FUiIsInN1YiI6ImVtaWx5aiIsImlhdCI6MTY5ODIxODcyOCwiZXhwIjo0ODUxODE4NzI4fQ.pjv6B1h7F6T4WVXftA-tgpe3OAj3RWytKBucAE62_cU
